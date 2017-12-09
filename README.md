@@ -2,23 +2,30 @@
 FrontEnd builder [npm, gulp, bower]
 
 
-Step 1: npm i
-Step 2: bower i
-Step 3: npm start
+Step 1: <b>npm i</b>
+<br>
+Step 2: <b>Изменить publicPath, srcPath и по надобности пути в объекте path</b>
+<br>
+Step 3: <b>npm start</b>
 
 NPM :
-
+<br>
   "start": запуск среды разработки
+  <br>
   "build": выгрузка для продакшина
+  <br>
   "deploy": выгрузка на GitHub-Pages
 
 
 GULP :
-  - less
-  - browserSync
+  - sass/less
+  - browserSync (proxy)
   - notify
   - postcss
-  - gh-pages
+  - uglify
+  - imagemin
+ 
+Дополнительно:
 
 + ESlint
 + StyleLint
